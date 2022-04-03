@@ -2,12 +2,11 @@
 
 namespace App\Controllers;
 
-class Home extends BaseController
+class Posts extends BaseController
 {
     public function index()
     {
-        // echo 'hello world';
         // echo view('partials/header');
-        return view('home/index');
+        return view('posts/index');
     }
 }
